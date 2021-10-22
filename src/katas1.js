@@ -1,94 +1,85 @@
+console.log("kata1:")
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  let num = 1;
+    while (num <=20){
+      console.log(num);
+      num++;
+  }
 }
+oneThroughTwenty();
 
-//call function oneThroughTwenty
-
+console.log(".......................................")
+console.log("kata2:")
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  for (let num = 2; num <= 20; num +=2)
+    console.log(num);
 }
+evensToTwenty();
 
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+console.log(".......................................")
+console.log("kata3:")
+function oddsToTwenty() {  
+  for (let num = 1; num <= 20; num +=2)
+    console.log(num); 
 }
+oddsToTwenty();
 
-//call function oddsToTwenty
-
+console.log(".......................................")
+console.log("kata4:")
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  for (let num = 5; num <= 100; num +=5)
+    console.log(num);
 }
+multiplesOfFive();
 
-//call function multiplesOfFive
-
+console.log(".......................................")
+console.log("kata5:")
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  for (let num = 1; num <= 10; num++){
+    let num1 = num*num;
+    console.log(num1);
+    }
 }
+squareNumbers();
 
-//call function squareNumbers
-
+console.log(".......................................")
+console.log("kata6:")
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (let num = 20; num >= 1; num--)
+  console.log(num);
 }
+countingBackwards();
 
-//call function countingBackwards
-
+console.log(".......................................")
+console.log("kata7:")
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (let num = 20; num >= 2; num-=2)
+  console.log(num);
 }
+evenNumbersBackwards();
 
-//call function evenNumbersBackwards
-
+console.log(".......................................")
+console.log("kata8:")
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (let num = 19; num >= 1; num -=2)
+    console.log(num);
 }
+oddNumbersBackwards();
 
-//call function oddNumbersBackwards
-
+console.log(".......................................")
+console.log("kata9:")
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (let num = 100; num >= 5; num -=5)
+    console.log(num);
 }
+multiplesOfFiveBackwards();
 
-//call function multiplesOfFiveBackwards
-
+console.log(".......................................")
+console.log("kata10:")
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  for (let num = 10; num >= 1; num--){
+    let num1 = num*num;
+    console.log(num1);
+  }
 }
-
-//call function squareNumbersBackwards
+squareNumbersBackwards();
